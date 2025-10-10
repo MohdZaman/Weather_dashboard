@@ -12,6 +12,14 @@ body {
   justify-content: center;
   align-items: center;
 }
+body {
+  background-color: #000; /* fallback */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* ensures full-screen effect */
+  transition: background-image 1s ease-in-out;
+}
 
 .app {
   background: rgba(255, 255, 255, 0.15);
