@@ -102,7 +102,7 @@ function changeBackgroundImage(condition, isNight) {
       case "mist":
       case "fog":
       case "haze":
-        imageUrl = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFkN2N2NnRnanlrZnFhdDJsdmQ1aDh1aWRidjF5NXRiZjgzZHlvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dgeIH5RPynA6Q/giphy.gif; // foggy night
+        imageUrl = "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFkN2N2NnRnanlrZnFhdDJsdmQ1aDh1aWRidjF5NXRiZjgzZHlvYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/dgeIH5RPynA6Q/giphy.gif"; // foggy night
         break;
       default:
         imageUrl = "https://i.gifer.com/Ir3.gif"; // fallback starry
